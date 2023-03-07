@@ -1,7 +1,9 @@
 # DOWNLOAD TO HOST SERVER
 use git clone
 change directory to index.js directory
-# npm install
+# npm install 
+Command 'npm' not found, but can be installed with: 
+sudo apt install npm    # in the UBUNTU HOST
 you will get package-lock.json and node_modules 
 then check for port  
 # node index.js
