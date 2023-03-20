@@ -7,7 +7,7 @@ sudo apt install npm -y
 
 sudo npm install -g npm@9.6.2
 
-sudo docker build -t nodeapp1  .
+sudo docker build . -t nodeapindex
 sudo docker run -d -p 80:5000 -d nodeapp --name nodetainer
 sudo docker run  -p 5000:5000 -d nodeapp1 --name nodetainer2
 sudo docker rm 54894143da2e fc6756d5ec0a
