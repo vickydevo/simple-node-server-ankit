@@ -1,4 +1,4 @@
-/bin/bash
+#!/bin/bash
 sudo yum install git -y
 sudo apt install git -y
 
@@ -19,7 +19,7 @@ sudo docker stop nodecont80
 sudo docker rm nodecont80 #remove container 
 
 # user date #------>>  using lauch template
-# /bin/bash
+# #!/bin/bash
 # cd /home/ec2-user/code/simple-node-server-ankit
 # sudo docker stop nodecont80 
 # sudo docker rm nodecont80 nodecont5000
