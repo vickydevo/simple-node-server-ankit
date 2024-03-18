@@ -1,9 +1,19 @@
 #!/bin/bash
+# amazon linux
 sudo yum install git -y
-sudo apt install git -y
+sudo yum install nodejs -y
+sudo yum install npm -y
+node index.js
 
+
+# for ubuntu
+sudo apt update -y
+sudo apt install git -y
+sudo apt install nodejs -y
 sudo apt install npm -y
-sudo apt install npm -y
+
+
+
 
 sudo npm install -g npm@9.6.2
 sudo docker build . -t node80
