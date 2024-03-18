@@ -11,7 +11,7 @@ sudo apt update -y
 sudo apt install git -y
 sudo apt install nodejs -y
 sudo apt install npm -y
-
+node index.js
 
 
 
