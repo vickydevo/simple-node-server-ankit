@@ -13,7 +13,9 @@ sudo apt install nodejs -y
 sudo apt install npm -y
 node index.js
 
-
+# python --> pip install
+# java   --> mvn clean install
+# 
 
 sudo npm install -g npm@9.6.2
 sudo docker build . -t node80
